@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+    position: relative;
+    z-index: 3;
+    background: #000;
+    font-family: "raleway", sans-serif;
+}
+
+.footer {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+    color: white;
+  }
+  
+  .footer canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 100%;
+    pointer-events: none;
+  }
+
+  canvas{
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:black;
+  }
+
+  .content {
+    padding: 50px;
+    height: 800px;
+    width: 600px;
+  }

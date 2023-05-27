@@ -1,23 +1,10 @@
-*,
-*:before,
-*:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background: #000;
-  font-family: "raleway", sans-serif;
-}
-
 #bg-hex {
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
+  position: fixed;
   top: 0;
   left: 0;
-  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
 }
 
 @keyframes animate {
