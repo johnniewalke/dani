@@ -82,15 +82,15 @@ body {
 }
 
 .depoimentos_clientes {
-    display: flex;
-    flex-direction: column;
-    width: 75%;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.testimonial {
+.depoimentos_clientes .testimonial {
     background-color: #f1f1f1;
-    padding: 10px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .testimonial h2 {
