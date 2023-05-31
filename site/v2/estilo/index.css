@@ -66,7 +66,7 @@ body {
 /************BOTÃO LATERAL FIXO************/
 .icon-atendimento {
     position: fixed;
-    bottom: 20px;
+    bottom: 65px;
     right: 10px;
 }
 
@@ -185,10 +185,18 @@ button:hover {
 
 /************Carrossel Destaques************/
 .carrossel_Destaques {
+    margin: 25px auto 0px auto;
     height: 500px;
     width: 500px;
-    border: red solid 1px;
     text-align: center;
+    border: 5px solid;
+    border-image: linear-gradient(to right, purple, orange) 1;
+    padding: 10px;
+}
+
+.bts_Carrossel {
+    display: flex;
+    justify-content: space-between;
 }
 
 .carrossel img {
@@ -196,24 +204,35 @@ button:hover {
     width: 300px;
 }
 
-.bt_Anterior {
-    /* Estilos personalizados para o botão "Anterior" */
-  }
-  
-  /* Ocultar o botão "Previous" padrão */
-.bt_Anterior:before {
-    content: none;
-  }
+.titulo_Destaques {
+    text-align: center;
+    font-size: 28px;
+}
 
-.bt_Proximo {
+.titulo_Destaques strong {
+    font-family: 'FonteDani';
+    color: #e64e02;
+}
 
+.bt_Proximo, .bt_Anterior {
+    background-color: #6e40aa;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.bt_Proximo:hover, .bt_Anterior:hover {
+    background-color: #5a338c;
 }
 
 
-.bts_Carrossel {
-    display: flex;
-    justify-content: space-between;
-}
+
+
 
 /************FOOTER************/
 footer {
