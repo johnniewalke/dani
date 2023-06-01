@@ -188,11 +188,11 @@ button:hover {
     display: flex;
     flex-direction: column;
     margin: 25px auto 0px auto;
-    height: 600px;
+    height: 400px;
     width: 500px;
     text-align: center;
     border: 5px solid;
-    border-image: linear-gradient(to right, purple, orange) 1;
+    border-image: linear-gradient(to right, #800080, #ffa500) 1;
     padding: 10px;
 }
 
