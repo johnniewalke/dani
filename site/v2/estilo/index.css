@@ -185,8 +185,10 @@ button:hover {
 
 /************Carrossel Destaques************/
 .carrossel_Destaques {
+    display: flex;
+    flex-direction: column;
     margin: 25px auto 0px auto;
-    height: 500px;
+    height: 600px;
     width: 500px;
     text-align: center;
     border: 5px solid;
@@ -200,8 +202,8 @@ button:hover {
 }
 
 .carrossel img {
-    height: 300px;
-    width: 300px;
+    max-height: 430px;
+    max-width: 500px;
 }
 
 .titulo_Destaques {
@@ -229,10 +231,6 @@ button:hover {
 .bt_Proximo:hover, .bt_Anterior:hover {
     background-color: #5a338c;
 }
-
-
-
-
 
 /************FOOTER************/
 footer {
