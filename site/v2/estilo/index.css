@@ -232,6 +232,24 @@ button:hover {
     background-color: #5a338c;
 }
 
+
+.carrossel .item_carrossel {
+  position: relative;
+}
+
+.carrossel .legenda_img_carrossel {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
+
+
 /************FOOTER************/
 footer {
     background-color: #333;
