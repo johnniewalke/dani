@@ -316,6 +316,74 @@ footer {
 
 /* Media queries for responsiveness */
 @media (max-width: 480px) {
+
+/************Carrossel Destaques************/
+.carrossel_Destaques {
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto 0px auto;
+    height: 400px;
+    width: 380px;
+    text-align: center;
+    border: 5px solid;
+    border-image: linear-gradient(to right, #800080, #ffa500) 1;
+    padding: 10px;
+}
+
+.bts_Carrossel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrossel img {
+
+}
+
+.titulo_Destaques {
+    text-align: center;
+    font-size: 28px;
+}
+
+.titulo_Destaques strong {
+    font-family: 'FonteDani';
+    color: #e64e02;
+}
+
+.bt_Proximo, .bt_Anterior {
+    background-color: #6e40aa;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.bt_Proximo:hover, .bt_Anterior:hover {
+    background-color: #5a338c;
+}
+
+
+.carrossel .item_carrossel {
+  position: relative;
+}
+
+.carrossel .legenda_img_carrossel {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/************FOOTER************/
     .footer-info {
       flex-basis: 100%;
       max-width: 100%;
