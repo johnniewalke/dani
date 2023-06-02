@@ -336,7 +336,8 @@ footer {
 }
 
 .carrossel img {
-
+    height: 340px;
+    width: 380px;
 }
 
 .titulo_Destaques {
