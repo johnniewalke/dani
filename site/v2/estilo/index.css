@@ -316,6 +316,14 @@ footer {
 
 /* Media queries for responsiveness */
 @media (max-width: 480px) {
+    .hero {
+        background-color: #6e40aa;
+        height: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
 /************Carrossel Destaques************/
 .carrossel_Destaques {
