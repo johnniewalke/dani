@@ -68,6 +68,7 @@ body {
     position: fixed;
     bottom: 65px;
     right: 10px;
+    z-index: 999;
 }
 
 .icon-atendimento:hover {
