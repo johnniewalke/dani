@@ -25,11 +25,14 @@ body {
 
 .hero {
     background-color: #6e40aa;
-    height: 695px;
+    height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.hero-content {
+    margin: 130px 0px 0px 0px;
 }
 
 .hero h1 {
@@ -105,7 +108,7 @@ button:hover {
 
 .button-blink {
     animation: blink 1.7s infinite;
-    margin: 25px;
+    margin: 25px 0px 0px 0px;
     border-radius: 4px;
     padding: 10px 20px;
     text-decoration: none;
